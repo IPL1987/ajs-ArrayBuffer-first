@@ -6,7 +6,8 @@
 Описание
 У вас есть функция getBuffer(), которая эмулирует создание объекта типа ArrayBuffer. Вам необходимо реализовать класс ArrayBufferConverter с методом load(), который может загружать данные (сигнатура load(buffer)), и методом toString, который умеет переводить содержимое загруженного ArrayBuffer в строку.
 
-```function getBuffer() {
+```
+function getBuffer() {
   const data = '{"data":{"user":{"id":1,"name":"Hitman","level":10}}}';
   return (input => {
     const buffer = new ArrayBuffer(data.length * 2);
@@ -16,7 +17,7 @@
     }
     return buffer;
   })(data);
-}```
+}
 
 Не забудьте написать unit-тесты, которые обеспечивают 100% покрытие функций и классов, которые вы тестируете.
 
