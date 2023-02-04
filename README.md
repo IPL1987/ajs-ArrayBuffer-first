@@ -18,7 +18,6 @@ function getBuffer() {
     return buffer;
   })(data);
 }
-```
 
-Не забудьте написать unit-тесты, которые обеспечивают 100% покрытие функций и классов, которые вы тестируете.
+[![Build status](https://ci.appveyor.com/api/projects/status/18g195ist9ybec7s/branch/main?svg=true)](https://ci.appveyor.com/project/IPL1987/ajs-arraybuffer-first/branch/main)
 
