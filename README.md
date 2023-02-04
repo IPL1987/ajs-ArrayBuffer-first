@@ -17,6 +17,7 @@ function getBuffer() {
     }
     return buffer;
   })(data);
-}
+}```
+
 
 [![Build status](https://ci.appveyor.com/api/projects/status/18g195ist9ybec7s?svg=true)](https://ci.appveyor.com/project/IPL1987/ajs-arraybuffer-first)
